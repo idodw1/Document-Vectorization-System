@@ -1,0 +1,137 @@
+# ============================================================
+# SECURITY - Never commit these files!
+# ============================================================
+
+# Environment variables (contains API keys and passwords!)
+.env
+*.env
+.env.local
+.env.*.local
+
+# ============================================================
+# Python
+# ============================================================
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ============================================================
+# IDEs
+# ============================================================
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# ============================================================
+# Operating System
+# ============================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ============================================================
+# Database
+# ============================================================
+
+# PostgreSQL
+*.sql.bak
+*.dump
+
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================================
+# Logs
+# ============================================================
+
+*.log
+logs/
+*.log.*
+
+# ============================================================
+# Temporary files
+# ============================================================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ============================================================
+# Project specific (optional - uncomment if needed)
+# ============================================================
+
+# Test files you don't want to commit
+# test_document.pdf
+# sample_document.docx
+
+# Large data files
+# data/
+# *.pdf
+# *.docx
